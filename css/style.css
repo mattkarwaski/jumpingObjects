@@ -1,0 +1,137 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body .field,
+html .field {
+  width: 100%;
+  height: 100%;
+  background-color: #116193;
+  position: absolute;
+}
+
+.ball-1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#902049), to(#441124));
+  background-image: linear-gradient(180deg, #902049, #441124);
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border-radius: 50%;
+  -webkit-animation: 0.5s 1s bounce infinite ease;
+          animation: 0.5s 1s bounce infinite ease;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+.ball-2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#87dea3), to(#1c482a));
+  background-image: linear-gradient(180deg, #87dea3, #1c482a);
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-radius: 50%;
+  -webkit-animation: 2s 2.5s bounce infinite ease;
+          animation: 2s 2.5s bounce infinite ease;
+  margin-left: 200px;
+  display: inline-block;
+}
+
+.ball-3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#db87de), to(#742e76));
+  background-image: linear-gradient(180deg, #db87de, #742e76);
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+  -webkit-animation: 1.5s 2s bounce infinite ease;
+          animation: 1.5s 2s bounce infinite ease;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+.ball-4 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#87dade), to(#195d60));
+  background-image: linear-gradient(180deg, #87dade, #195d60);
+  width: 75px;
+  height: 75px;
+  position: relative;
+  border-radius: 50%;
+  -webkit-animation: 2s 2s bounce infinite ease;
+          animation: 2s 2s bounce infinite ease;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+.ball-5 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fd5000), to(#311407));
+  background-image: linear-gradient(180deg, #fd5000, #311407);
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  -webkit-animation: 2.5s 3s bounce infinite ease;
+          animation: 2.5s 3s bounce infinite ease;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+.ball-6 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.381)), to(black));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.381), black);
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 50%;
+  -webkit-animation: 1s 4s bounce infinite ease;
+          animation: 1s 4s bounce infinite ease;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.ball-7 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d1da27), to(#46480f));
+  background-image: linear-gradient(180deg, #d1da27, #46480f);
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+  -webkit-animation: 0.25s 0.25s bounce infinite ease;
+          animation: 0.25s 0.25s bounce infinite ease;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9) translateY(300px);
+            transform: scale(1.1, 0.9) translateY(300px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9) translateY(300px);
+            transform: scale(1.1, 0.9) translateY(300px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+/*# sourceMappingURL=style.css.map */
